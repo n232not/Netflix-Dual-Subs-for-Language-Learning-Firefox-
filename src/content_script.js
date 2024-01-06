@@ -12056,7 +12056,7 @@ function conjugateWord(word){
     var result = verb.conjugate(word);
     console.log(result);
     var text = document.getElementById('conjText');
-    text.innerHTML = JSON.stringify(result, null, "\\t").replaceAll(",","<br>");
+    text.innerHTML = JSON.stringify(result, null, "\\t").replaceAll(",","<br>").replaceAll('"', '').replaceAll('{', '').replaceAll('}', '');
     console.log("All done!");
     return;
 	}

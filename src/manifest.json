@@ -1,7 +1,7 @@
  {
   "manifest_version": 2,
-  "name": "Subadub",
-  "description" : "Enhanced Netflix subtitles for foreign language study",
+  "name": "Netflix Dual Subs for Language Learning",
+  "description" : "Firefox addon that displays dual subtitles in Netflix for Language Learning. Additionally, it displays conjugations of verbs when you hover over them (only for spanish as of release 0.1)",
   "version": "0.1.9",
   "icons": {
     "16": "icon16.png",
